@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "demo-api"
+version = "0.1.0"
+description = ""
+authors = ["KS <43686056+k-s-t-i@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.71.0"
+uvicorn = "^0.16.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+schemathesis = "^3.12.1"
+flake8 = "^3.9.2"
+mypy = "^0.910"
+black = "^21.9b0"
+isort = "^5.9.2"
+autoflake = "^1.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
