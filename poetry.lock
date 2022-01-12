@@ -642,8 +642,8 @@ multidict = ">=4.0"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.10"
-content-hash = "4fb47e690bcb896e3c228a27cdbfd6d87fcca75342325012105116330abfa7fc"
+python-versions = "^3.9"
+content-hash = "d38b29003065b5b6d839745447d336bfe9bf8310a270f9ec06e38367749b85bd"
 
 [metadata.files]
 anyio = [
