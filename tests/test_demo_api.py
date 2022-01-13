@@ -5,7 +5,7 @@ import requests
 import schemathesis
 from starlette.testclient import TestClient
 
-from demo_api import app
+from demo_api.app import app
 
 schemathesis.fixups.install(["fast_api"])
 schema = schemathesis.from_asgi("/openapi.json", app)
