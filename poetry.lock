@@ -258,7 +258,7 @@ plugins = ["setuptools"]
 
 [[package]]
 name = "jsonschema"
-version = "4.3.3"
+version = "4.4.0"
 description = "An implementation of JSON Schema validation for Python"
 category = "dev"
 optional = false
@@ -493,7 +493,7 @@ use_chardet_on_py3 = ["chardet (>=3.0.2,<5)"]
 
 [[package]]
 name = "schemathesis"
-version = "3.12.1"
+version = "3.12.3"
 description = "Property-based testing framework for Open API and GraphQL based apps"
 category = "dev"
 optional = false
@@ -725,8 +725,8 @@ isort = [
     {file = "isort-5.10.1.tar.gz", hash = "sha256:e8443a5e7a020e9d7f97f1d7d9cd17c88bcb3bc7e218bf9cf5095fe550be2951"},
 ]
 jsonschema = [
-    {file = "jsonschema-4.3.3-py3-none-any.whl", hash = "sha256:eb7a69801beb7325653aa8fd373abbf9ff8f85b536ab2812e5e8287b522fb6a2"},
-    {file = "jsonschema-4.3.3.tar.gz", hash = "sha256:f210d4ce095ed1e8af635d15c8ee79b586f656ab54399ba87b8ab87e5bff0ade"},
+    {file = "jsonschema-4.4.0-py3-none-any.whl", hash = "sha256:77281a1f71684953ee8b3d488371b162419767973789272434bbc3f29d9c8823"},
+    {file = "jsonschema-4.4.0.tar.gz", hash = "sha256:636694eb41b3535ed608fe04129f26542b59ed99808b4f688aa32dcf55317a83"},
 ]
 junit-xml = [
     {file = "junit_xml-1.9-py2.py3-none-any.whl", hash = "sha256:ec5ca1a55aefdd76d28fcc0b135251d156c7106fa979686a4b48d62b761b4732"},
@@ -982,8 +982,8 @@ requests = [
     {file = "requests-2.27.1.tar.gz", hash = "sha256:68d7c56fd5a8999887728ef304a6d12edc7be74f1cfa47714fc8b414525c9a61"},
 ]
 schemathesis = [
-    {file = "schemathesis-3.12.1-py3-none-any.whl", hash = "sha256:ad63e011da36ff85ac945416842a8918f9d5a93706dd6b151903bd2397703867"},
-    {file = "schemathesis-3.12.1.tar.gz", hash = "sha256:b2a886023113375cc3a071c1894afb2616d825dcb6f2f890b3cfd18297229b7f"},
+    {file = "schemathesis-3.12.3-py3-none-any.whl", hash = "sha256:753e34a73060a0378582ec52d4183ac1f89185df7e00a8106e55f20d1595a921"},
+    {file = "schemathesis-3.12.3.tar.gz", hash = "sha256:252c0f0736e574cf9069a486b815a3f17cbda115e6a4c818ba050fe14f30899f"},
 ]
 six = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
