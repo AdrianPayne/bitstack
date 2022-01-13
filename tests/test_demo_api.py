@@ -26,3 +26,8 @@ def test_fuzz(case):
     )
     assert response.elapsed < timedelta(milliseconds=500)
     case.validate_response(response)
+
+
+def test_arbitrary_zero_case():
+    response = client.get("/price/0/0/0.0")
+    assert response.status_code == 200
