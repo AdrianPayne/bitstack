@@ -1,8 +1,8 @@
+import unittest
 from datetime import timedelta
 
 import hypothesis
 import requests
-import unittest
 import schemathesis
 from starlette.testclient import TestClient
 
@@ -32,17 +32,17 @@ def test_fuzz(case):
 # /price
 class TestCasePrice(unittest.TestCase):
     def test_price_ok(self):
-        crypto = 'btc'
-        currency = 'usd'
+        crypto = "btc"
+        currency = "usd"
         crypto_amount = 2
         response = client.get(f"/price/{crypto}/{currency}/{crypto_amount}")
         self.assertEqual(200, response.status_code)
-        self.assertTrue(response.json()['bid'] and response.json()['ask'])
+        self.assertTrue(response.json()["bid"] and response.json()["ask"])
 
     def test_price_ko(self):
-        crypto = ''
-        currency = ''
+        crypto = ""
+        currency = ""
         crypto_amount = 0
         response = client.get(f"/price/{crypto}/{currency}/{crypto_amount}")
         self.assertEqual(404, response.status_code)
-        self.assertEqual({'detail': 'Not Found'}, response.json())
+        self.assertEqual({"detail": "Not Found"}, response.json())
